@@ -1,0 +1,35 @@
+/* UserView.css */
+
+.blog-card {
+    transition: transform 0.2s; /* Smooth hover effect */
+    background-color: #ffffff; /* White background for cards */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.blog-card:hover {
+    transform: scale(1.02); /* Scale up on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Slight shadow on hover */
+}
+
+.blog-title {
+    font-size: 1.5rem; /* Larger font size for titles */
+    font-weight: bold; /* Bold titles */
+    color: #343a40; /* Darker color for better readability */
+}
+
+.custom-button {
+    background-color: #007bff; /* Primary button color */
+    color: white; /* Button text color */
+    border: none; /* Remove border */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.custom-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Style for the "No blogs" message */
+.text-center p {
+    font-size: 1.2rem; /* Slightly larger text */
+    color: #6c757d; /* Gray color for better contrast */
+}

@@ -1,0 +1,28 @@
+.admin-table {
+    margin-top: 20px;
+}
+
+.comment-container {
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #dee2e6; /* Border for comments */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f8f9fa; /* Light background color */
+}
+
+.comment-text {
+    flex-grow: 1;
+    color: #343a40; /* Darker text color for better readability */
+}
+
+.delete-comment-btn,
+.delete-blog-btn {
+    margin-left: 10px; /* Space between buttons */
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.delete-comment-btn:hover,
+.delete-blog-btn:hover {
+    background-color: #dc3545; /* Darker red on hover */
+    color: white; /* White text on hover */
+}

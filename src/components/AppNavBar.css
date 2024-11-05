@@ -1,0 +1,24 @@
+.custom-navbar {
+    background-color: #343A40; /* Change to your preferred color */
+}
+
+.navbar-brand {
+    color: white !important; /* Set brand text color */
+}
+
+.nav-link {
+    color: white !important; /* Set link text color */
+}
+
+.nav-link:hover {
+    color: #f0ad4e !important; /* Change hover color */
+}
+
+.nav-link.active {
+    font-weight: bold; /* Style for active link */
+}
+
+/* Optional: Add some padding to the navbar */
+.custom-navbar {
+    padding: 10px 20px; /* Adjust as necessary */
+}

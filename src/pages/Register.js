@@ -47,6 +47,7 @@ export default function Register() {
                     setEmail('');
                     setPassword('');
                     notyf.success('Registration Successful');
+                    console.log('User registered successfully:', data);
                 } else {
                     notyf.error(data.message || 'Something went wrong');
                 }
